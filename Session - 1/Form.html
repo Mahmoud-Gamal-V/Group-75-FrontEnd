@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+
+        <table border="2">
+            <tr>
+                <td colspan="2"> <center>Registeration Form</center></td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <select name="gender" id="">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3">Course</td>
+                <td><input type="radio" name="fullstack" id="">Fullstack</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="frontend" id="">Frontend</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="backend" id="">Backend</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Mahmoud@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="text" maxlength="13" name="phone"></td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td colspan="4">
+                    <input type="checkbox" name="English" id="English">English
+                    <input type="checkbox" name="Arabic" id="Arabic">Arabic
+                    <input type="checkbox" name="French" id="French">French
+                    <input type="checkbox" name="German" id="German">German
+                </td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td><input type="date" name="birthdate" id=""></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><textarea name="description" id="" cols="30" rows="10" placeholder="Please Descripe Your Job"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button style="margin-right: 10px;">Submit</button>
+                    <button type="reset">Erase</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
